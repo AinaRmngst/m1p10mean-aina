@@ -11,7 +11,7 @@ a {
 
 /* à modifier ulterieurement pour le design */
 a:hover {
-  background: #E6B0B8;
+  background: #e6b0b8;
   color: whitesmoke;
   cursor: pointer;
 }
@@ -61,7 +61,7 @@ a span {
   display: block;
 }
 
-.menu a{
-    width: 100%;
-    min-width: 8rem;
+.menu a {
+  width: 100%;
+  min-width: 8rem;
 }

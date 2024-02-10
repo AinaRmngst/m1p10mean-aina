@@ -1,8 +1,20 @@
 ##Create Angular App
 npm install -g @angular/cli
+
 ##Create new repo with app.module.ts and routing in angular 17
 ng new frontend --no-standalone --routing --ssr=false
+
 ##remove git
 rm -rf .git
-##create new component
+
+##create frontoffice component
 ng g c frontoffice/header
+
+##create all backoffice component
+ng g c backoffice/body --skip-tests true
+ng g c backoffice/sidenav --skip-tests true
+ng g c backoffice/dashboard --skip-tests true
+ng g c backoffice/product --skip-tests true
+ng g c backoffice/statistics --skip-tests true
+ng g c backoffice/employee --skip-tests true
+ng g c backoffice/settings --skip-tests true
