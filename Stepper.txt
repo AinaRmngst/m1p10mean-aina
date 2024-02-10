@@ -1,0 +1,8 @@
+##Create Angular App
+npm install -g @angular/cli
+##Create new repo with app.module.ts and routing in angular 17
+ng new frontend --no-standalone --routing --ssr=false
+##remove git
+rm -rf .git
+##create new component
+ng g c frontoffice/header
