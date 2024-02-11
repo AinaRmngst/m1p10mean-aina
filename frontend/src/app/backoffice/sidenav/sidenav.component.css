@@ -99,3 +99,12 @@
     }
   }
 }
+
+.active{
+  background-color: whitesmoke;
+
+  .sidenav-link-icon,
+  .sidenav-link-text{
+    color: #1e699a;
+  }
+}
