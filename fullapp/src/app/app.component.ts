@@ -11,8 +11,9 @@ interface SideNavToggle{
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'frontend';
-
+  title = 'Fullappp';
+  
+  //Sidenav
   isSideNavCollapsed = false;
   screenWidth = 0;
 

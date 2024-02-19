@@ -1,0 +1,32 @@
+.card{
+    background: whitesmoke ;
+    width: 50%;
+    margin: auto;
+  }
+  .card-title{ 
+      background: whitesmoke;
+    }
+    
+    .card-content {
+      margin-top: 1rem;
+    }
+    
+    .row {
+      display: flex;
+      gap: 1rem;
+    
+      mat-form-field {
+        margin-top: 1rem;
+        width: 100%;
+      }
+    }
+    .action {
+      display: flex;
+      align-items: center;
+    
+      button {
+        flex: 1;
+        color: #1e699a;
+      }
+    }
+    
