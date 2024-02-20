@@ -25,6 +25,7 @@ import { ListProductComponent } from './backoffice/product/list-product/list-pro
 import { AddProductComponent } from './backoffice/product/add-product/add-product.component';
 import {MatTableModule} from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,7 @@ import { MatPaginator } from '@angular/material/paginator';
     AddProductComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatIconModule, MatToolbarModule,MatButtonModule,
-    MatDialogModule,MatFormFieldModule,MatInputModule,FormsModule,MatCardModule,MatTableModule,MatPaginator],
+    MatDialogModule,MatFormFieldModule,MatInputModule,FormsModule,MatCardModule,MatTableModule,MatPaginator,MatExpansionModule],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
 })
