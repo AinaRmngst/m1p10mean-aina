@@ -1,32 +1,26 @@
-.card{
-    background: whitesmoke ;
-    width: 50%;
-    margin: auto;
+.dialog-title{
+  background: #ffb6c1;
+}
+
+.dialog-content {
+  margin-top: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+
+  mat-form-field {
+    margin-top: 1rem;
+    width: 100%;
   }
-  .card-title{ 
-      background: whitesmoke;
-    }
-    
-    .card-content {
-      margin-top: 1rem;
-    }
-    
-    .row {
-      display: flex;
-      gap: 1rem;
-    
-      mat-form-field {
-        margin-top: 1rem;
-        width: 100%;
-      }
-    }
-    .action {
-      display: flex;
-      align-items: center;
-    
-      button {
-        flex: 1;
-        color: #1e699a;
-      }
-    }
-    
+}
+.action {
+  display: flex;
+  align-items: center;
+
+  button {
+    flex: 1;
+    color: #1e699a;
+  }
+}
