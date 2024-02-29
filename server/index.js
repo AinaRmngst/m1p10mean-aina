@@ -1,3 +1,3 @@
 const serve = require('./server')
-serve.database();
+//serve.database();
 serve.server();
